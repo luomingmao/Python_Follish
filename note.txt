@@ -1,0 +1,11 @@
+1. 识别网站所用的技术
+pip install builtwith
+import builtwith
+builtwith.parse('http://example.webscraping.com')
+
+2. 寻找网站所有者
+pip install python-whois
+如果上述方法不可行的话，hg clone https://bitbucket.org/richardpenman/pywhois
+sudo python setup.py install进行安装
+import whois
+print whois.whois('appspot.com')
