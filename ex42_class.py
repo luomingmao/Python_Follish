@@ -98,7 +98,7 @@ class Game(object):
 			print "DOES NOT COMPUTE!"
 			return 'central_corridor'
 
-	def laser_weaon_armory(self):
+	def laser_weapon_armory(self):
 		print "You do a dive roll into the Weapon Armory, crouch and scan the room"
 		print "for more Gothons that might be hiding. It's dead quiet, too quiet."
 		print "You stand up and run to the far side of the room and find the"
