@@ -6,6 +6,19 @@ Created on 2012-2-12
  
 @author: ken 
 '''  
+
+"""
+Need to create the table in the database.
+
+CREATE TABLE `user` (  
+  `Id` int(11) NOT NULL AUTO_INCREMENT,  
+  `name` varchar(255) DEFAULT NULL,  
+  `age` varchar(255) DEFAULT NULL,  
+  PRIMARY KEY (`Id`)  
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8; 
+
+"""
+
 #mysqldb      
 import time, MySQLdb, sys    
          
